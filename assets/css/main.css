@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #f5f6fa;
+}
+
+.hamburger{
+    position: fixed;
+    top: 2rem;
+    right: 3rem;
+    padding: .5rem;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+.hamburger i{
+    font-size: 3rem;
+    background: linear-gradient(to right, #2af598 0%, #009efd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: text;
+}
